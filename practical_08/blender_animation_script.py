@@ -153,6 +153,10 @@ try:
     object.modifiers['Scripted_Screw'].screw_offset = 4
     object.modifiers['Scripted_Screw'].iterations = 3
     
+    #Modifier 3
+    object.modifiers.new('Scripted_Wire_Frame', 'WIREFRAME') #Add screw modifier
+    object.modifiers['Scripted_Wire_Frame'].thickness = 0.5
+
 
     console("Accessing Data-Blocks")
     console("Accessing Scene Collection")
